@@ -56,7 +56,7 @@
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
-    "url": "git://github.com/nitesh321/azlon-components.git"
+    "url": "git://github.com/azlon-components.git"
   },
   "files": [
     "dist"
