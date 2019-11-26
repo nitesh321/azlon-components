@@ -1,5 +1,5 @@
 {
-  "name": "@surajpratap/azlon-components",
+  "name": "@nitesh/azlon-components",
   "version": "1.0.3",
   "description": "",
   "author": "surajpratap",
@@ -56,7 +56,7 @@
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
-    "url": "git://github.com/surajpratap/azlon-components.git"
+    "url": "git://github.com/nitesh321/azlon-components.git"
   },
   "files": [
     "dist"
