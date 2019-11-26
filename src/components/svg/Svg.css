@@ -1,0 +1,19 @@
+.svg{
+  display: flex;
+}
+.center{
+  justify-content: center;
+}
+.right{
+  justify-content: flex-end;
+}
+.default{
+  width: 25%;
+}
+.medium{
+  width: 40%;
+}
+.large{
+  width: 60%;
+}
+

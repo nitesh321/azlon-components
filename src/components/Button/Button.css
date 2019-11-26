@@ -1,0 +1,67 @@
+.button {
+  width: 100%;
+  border: none;
+  color: white;
+  min-width: 6em;
+  height: 2em;
+  border-radius: .2rem;
+}
+.success{
+  border: 1px solid green;
+  background-color: green;
+}
+.danger{
+  border: 1px solid #FF0000;
+  background-color: #FF0000;
+}
+.info{
+  border: 1px solid #0070e0;
+  background-color: #0070e0;
+}
+
+.default{
+  background-color:#0061ff;
+}
+
+.button:hover{
+  background-color: #3b85ff;
+}
+
+.button.danger:hover{
+  background-color: white;
+  color: #FF0000;
+}
+.button.info:hover{
+  background-color: white;
+  color: #0061ff;
+}
+
+.button.success:hover{
+  background-color: white;
+  color: green;
+}
+
+.normal{
+  font-size: 1em;
+}
+
+.large{
+  font-size: 1.25em;
+
+}
+
+.button ::after {
+  border: 1px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 1px solid blue;
+  width: 10px;
+  height: 10px;
+  animation: spin 0.7s linear infinite;
+}
+
+/* Safari */
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

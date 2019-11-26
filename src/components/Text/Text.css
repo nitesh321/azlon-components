@@ -1,0 +1,16 @@
+.heading {
+  font-size: 2em;
+}
+
+.subheading {
+  font-size: 1.5em;
+}
+
+.normal {
+  font-size: 1em;
+}
+
+.common {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}

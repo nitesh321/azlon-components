@@ -1,0 +1,23 @@
+.parent{
+  list-style-type: none;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+
+
+}
+.list{
+  line-height: 1.5rem;
+}
+.listItem{
+  padding-left: 1rem;
+  border-bottom: 1px solid lightgray;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.listItem:hover{
+  background-color:lightgray;
+  color: white;
+}

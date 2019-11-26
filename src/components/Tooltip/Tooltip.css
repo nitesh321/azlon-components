@@ -1,0 +1,39 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0061ff;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+}
+
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 10px solid #0061ff;
+  position: absolute;
+  left: 80%;
+  visibility: hidden;
+}
+.tooltip:hover .tooltipText{
+  visibility: visible;
+}
+.tooltipName{
+margin-top: .5rem;
+}
+.tooltip:hover .triangle{
+  visibility: visible;
+}

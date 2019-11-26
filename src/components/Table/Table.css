@@ -1,0 +1,33 @@
+.container{
+  overflow: auto;
+  border-right: .01rem solid lightgray;
+  border-left: .01rem solid lightgray;
+}
+.table{
+  display: table;
+  border-collapse: collapse;
+
+}
+.tableHeader{
+  display: table-row;
+}
+.tableBody{
+  display: table-row;
+}
+.cellHeaderBody{
+  display: table-cell;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.cellBody{
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.tableBody:hover{
+  background-color: #0070e0;
+  color: white;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "azlon-components-example",
+  "homepage": "https://surajpratap.github.io/azlon-components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "azlon-components": "file:..",
+    "bulma": "^0.8.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "vivus": "^0.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

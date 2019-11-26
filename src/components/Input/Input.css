@@ -1,0 +1,28 @@
+
+.input{
+  width: 100%;
+  padding-left: .5rem;
+  border-radius: .2em;
+  height: 2em;
+}
+.default{
+  border: 1px solid lightgray;
+}
+.success{
+  border: 1px solid #48c774;
+}
+.danger{
+  border: 1px solid red;
+}
+.info{
+  border: 1px solid #0070e0;
+}
+
+.medium{
+  font-size: 1em;
+}
+
+.large{
+  font-size: 1.5em;
+}
+
