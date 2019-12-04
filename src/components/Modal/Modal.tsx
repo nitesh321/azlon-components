@@ -1,11 +1,11 @@
 import * as React from 'react';
 import styles from "./Modal.css";
 import classNames from "classnames";
-export const Modal =(props:{children: React.ReactNode, name: string, visibility:boolean, openModal:()=>{}, closeModal:()=>{}}) =>{
+export const Modal =(props:{children: React.ReactNode,style?:Object, name: string, visibility:boolean, openModal:()=>{}, closeModal:()=>{}}) =>{
   const visibility = props.visibility ===true? 'show': 'hide';
   return(
     <React.Fragment>
-      <button className={styles.open} onClick={() =>{
+      <button className={styles.open} style={props.style} onClick={() =>{
         props.openModal()
       }}>{props.name}</button>
       <div

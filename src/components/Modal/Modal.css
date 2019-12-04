@@ -22,7 +22,9 @@
   padding-top: 1rem;
 }
 .open{
-  border: 1px solid #0061ff;
+  background-color: #0061ff;
+  color: white;
+  padding: 4px 5px 4px 5px;
   border-radius: .25rem;
 }
 .close{

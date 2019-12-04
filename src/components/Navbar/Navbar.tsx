@@ -3,7 +3,7 @@ import styles from './Navbar.css';
 interface navBarItem {
   name: string,
   link?: string,
-  action?:() =>{}
+  action?:any
 }
 interface Props {
   title?: string,
